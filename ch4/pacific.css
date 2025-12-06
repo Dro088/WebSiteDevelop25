@@ -18,7 +18,8 @@ header { background-color: #002171;
       padding-top: .5em; }
 h2 { color: #1976D2; 
 	 font-family: Georgia, "Times New Roman", serif; }
-nav { padding-top: .5em;
+nav { text-align: center;
+      padding-top: .5em;
       padding-right: .5em;
       padding-bottom: .5em;
       font-weight: bold;
