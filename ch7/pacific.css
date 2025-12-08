@@ -1,4 +1,4 @@
- *{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -15,6 +15,7 @@ body {
 #wrapper {
     background-color: #FFFFFF;
     max-width: 2048px;
+    width: 80%;
     margin: 0 auto;
     padding: 0 1em;
 }
@@ -36,10 +37,7 @@ header a {
 
 header a:hover {
     color: #90C7E3;
-}
 
-
-h1 {
     font-size: 2em;
     margin-bottom: 0.5em;
 }
@@ -95,7 +93,8 @@ nav a:hover { color: #A52A2A; }
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-around;
-        padding-right: 2em;
+        padding-right: 10%;
+        padding-left: 10%;
     }
 
     nav li {
@@ -113,6 +112,7 @@ nav a:hover { color: #A52A2A; }
 section {
     padding: 1em 2em;
 }
+
 
 #flow {
     display: flex;
@@ -152,3 +152,8 @@ footer {
 #trailhero { background-image: url(trail.jpg); }
 
 
+@media (min-width: 1024px) {
+    #wrapper {
+        background: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
+    }
+}
