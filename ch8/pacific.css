@@ -157,3 +157,22 @@ footer {
         background: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
     }
 }
+
+table {
+    width: 100%;
+    margin: 2em auto;
+    border: 1px solid #3399CC;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;               
+    border: 1px solid #3399CC;
+}
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
